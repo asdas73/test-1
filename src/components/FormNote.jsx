@@ -26,7 +26,7 @@ const FormNote = () => {
     return(
         <form onSubmit={onSubmitHandler}>
             <input type="text" defaultValue={descrip} value={descrip} onChange={inputHook}/>
-            <button>ADD</button>
+            <button className="btn-add">ADD</button>
         </form>
     )
 }
